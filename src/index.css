@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("/site/public/img/ali.png");
+}
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Estilos para el botón */
+.button {
+  margin: 10px;
+}
+
+/* Estilos para las tarjetas (cards) */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 1 / 1; /* Para hacer las imágenes cuadradas */
+}
+
+.card h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.card a {
+  display: block;
+  margin: 10px 0;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el encabezado */
+.header {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2em;
+  color: #333;
+}
